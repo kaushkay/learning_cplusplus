@@ -18,6 +18,12 @@ Operations of iterators :-
 
 3. advance() :- This function is used to increment the iterator position till the specified number mentioned in its arguments.
 
+4. next() :- This function returns the new iterator that the iterator would point after advancing the positions mentioned in its arguments.
+
+5. prev() :- This function returns the new iterator that the iterator would point after decrementing the positions mentioned in its arguments.
+
+6. inserter() :- This function is used to insert the elements at any position in the container. It accepts 2 arguments, the container and iterator to position where the elements have to be inserted.
+
 */
 
 int main(){
@@ -34,6 +40,10 @@ int main(){
     // Displaying iterator position 
     cout << "The position of iterator after advancing is : ";
     cout << *ptr << " ";
+    cout<<endl;
+
+    
+
     
 
 
